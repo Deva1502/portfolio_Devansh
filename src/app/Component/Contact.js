@@ -132,11 +132,11 @@ const Contact = () => {
             </motion.span>
             <h2 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                Let's Work Together
+                Let&apos;s Work Together
               </span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Have a project in mind? Let's create something amazing together
+              Have a project in mind? Let&apos;s create something amazing together
             </p>
           </motion.div>
 
@@ -152,7 +152,7 @@ const Contact = () => {
                 Contact Information
               </h3>
               <p className="text-gray-400 mb-8 leading-relaxed text-lg">
-                I'm always interested in hearing about new projects and
+                I&apos;m always interested in hearing about new projects and
                 opportunities. Whether you have a question or just want to say
                 hi, feel free to reach out!
               </p>
@@ -348,7 +348,7 @@ const Contact = () => {
                     animate={{ opacity: 1, y: 0 }}
                   >
                     <p className="text-green-400 font-semibold">
-                      ✓ Message sent successfully! I'll get back to you soon.
+                      ✓ Message sent successfully! I&apos;ll get back to you soon.
                     </p>
                   </motion.div>
                 )}

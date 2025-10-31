@@ -201,10 +201,7 @@ const About = () => {
               </h3>
 
               <p className="text-gray-400 leading-relaxed text-lg">
-                I'm a passionate{" "}
-                <span className="text-cyan-400 font-semibold">
-                  full-stack developer
-                </span>{" "}
+                I&apos;m a passionate <span className="text-cyan-400 font-semibold">full-stack developer</span>{" "}
                 with expertise in creating web applications that combine{" "}
                 <span className="text-purple-400 font-semibold">
                   beautiful design
@@ -215,7 +212,7 @@ const About = () => {
               </p>
 
               <p className="text-gray-400 leading-relaxed text-lg">
-                When I'm not coding, you'll find me exploring new technologies,
+                When I&apos;m not coding, you&apos;ll find me exploring new technologies,
                 solving algorithmic challenges on competitive programming
                 platforms, or contributing to open-source projects. I believe in
                 continuous learning and sharing knowledge with the developer
