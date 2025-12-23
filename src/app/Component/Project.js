@@ -53,6 +53,32 @@ const Projects = () => {
       featured: false,
       gradient: "from-orange-500 to-red-500",
     },
+    {
+      id: 4,
+      title: "Retail Management System",
+      description:
+        "A comprehensive solution for managing retail operations, including inventory, sales, and customer relationships.",
+      image: "/retail-dashboard.png",
+      category: "fullstack",
+      technologies: ["React", "Node.js", "PostgreSQL", "Express"],
+      liveUrl: "https://trustateproj.netlify.app/",
+      githubUrl: "https://github.com/Deva1502/TruState-Project",
+      featured: false,
+      gradient: "from-green-500 to-emerald-500",
+    },
+    {
+      id: 5,
+      title: "Expense Tracker",
+      description:
+        "An intuitive application for tracking personal finances, analyzing spending habits, and setting budgets.",
+      image: "/smart-finance.png",
+      category: "frontend",
+      technologies: ["Vue.js", "Firebase", "Tailwind CSS", "Chart.js"],
+      liveUrl: "https://devsmartexpensetracker.netlify.app/",
+      githubUrl: "https://github.com/Deva1502/Smart-Expense-Tracker",
+      featured: false,
+      gradient: "from-indigo-500 to-violet-500",
+    },
   ];
 
   const filters = [
@@ -117,11 +143,10 @@ const Projects = () => {
               <motion.button
                 key={filter.key}
                 onClick={() => setActiveFilter(filter.key)}
-                className={`px-8 py-3 rounded-xl font-bold transition-all duration-300 ${
-                  activeFilter === filter.key
-                    ? "bg-gradient-to-r from-cyan-500 to-blue-500 text-white shadow-lg shadow-cyan-500/50"
-                    : "bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-white border border-gray-700"
-                }`}
+                className={`px-8 py-3 rounded-xl font-bold transition-all duration-300 ${activeFilter === filter.key
+                  ? "bg-gradient-to-r from-cyan-500 to-blue-500 text-white shadow-lg shadow-cyan-500/50"
+                  : "bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-white border border-gray-700"
+                  }`}
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
