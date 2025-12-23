@@ -48,7 +48,7 @@ const About = () => {
   };
 
   const downloadResume = () => {
-    const fileId = "1MN7HCjV9Sc4wP6bjXRT1MhSu1kSAT5Fy";
+    const fileId = "1zAZHLc8-ca17ACBuGr0jqRDjRCK-yCJJ";
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
     const link = document.createElement("a");
@@ -71,7 +71,7 @@ const About = () => {
   };
 
   const resumeEmbedUrl = getEmbeddableLink(
-    "https://drive.google.com/file/d/1MN7HCjV9Sc4wP6bjXRT1MhSu1kSAT5Fy/view?usp=sharing"
+    "https://drive.google.com/file/d/1zAZHLc8-ca17ACBuGr0jqRDjRCK-yCJJ/view?usp=sharing"
   );
 
   return (
@@ -312,7 +312,7 @@ const About = () => {
                 <motion.button
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1MN7HCjV9Sc4wP6bjXRT1MhSu1kSAT5Fy/view?usp=sharing",
+                      "https://drive.google.com/file/d/1zAZHLc8-ca17ACBuGr0jqRDjRCK-yCJJ/view",
                       "_blank"
                     )
                   }
