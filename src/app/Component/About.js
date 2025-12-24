@@ -126,7 +126,7 @@ const About = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
                 <div className="relative overflow-hidden rounded-2xl border-4 border-gray-800 shadow-2xl">
                   <Image
-                    src="/pic.jpg"
+                    src="/profile-updated.jpg"
                     alt="About me"
                     width={500}
                     height={600}

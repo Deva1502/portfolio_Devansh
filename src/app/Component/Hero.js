@@ -59,7 +59,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 rounded-full blur-2xl opacity-75 animate-pulse"></div>
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 rounded-full animate-spin-slow opacity-50"></div>
               <Image
-                src="/pic.jpg"
+                src="/profile-updated.jpg"
                 alt="Devansh Mishra"
                 fill
                 className="rounded-full object-cover border-4 border-gray-800 relative z-10 shadow-2xl"
